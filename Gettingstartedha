@@ -1,0 +1,15 @@
+/*
+Created By : Avantika 
+Functionality : Below code finds the gross salary given the basic salary of Employee
+Functions Used : scanf, printf
+Date : 12 Jan 2020
+*/
+#include<stdio.h>
+void main()
+{
+    float salary = 0,gross_sal =0;
+    printf("enter the basic salary of Ramesh ");
+    scanf("%f",&salary);
+    gross_sal = salary + (0.40)* salary + (0.20) * salary;
+    printf("The gross salary of ramesh is %f",gross_sal);
+}
